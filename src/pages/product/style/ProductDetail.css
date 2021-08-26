@@ -1,0 +1,454 @@
+font-face {
+    font-family: Engravers;
+    src: url(../../../style/font/ENGR.ttf);
+}
+
+@font-face {
+    font-family: EngraversBold;
+    src: url(../../../style/font/EngraversMTBold.ttf);
+}
+
+@font-face {
+    font-family: NotoSansTC-Medium;
+    src: url(../../../style/font/NotoSansTC-Medium.otf)
+}
+
+@font-face{
+    font-family: NotosansTC-Bold;
+    src: url(../../../style/font/NotoSansTC-Bold.otf);
+}
+
+.proDe-full{
+    width: calc(100vw - 70px);
+    background-color: #E8E8E8;
+}
+.proDe-leftSide{
+    width: calc(50vw - 35px);
+    background-color:black;
+    height: 105vh;
+    position:sticky;
+    top: 0%;
+}
+.proDe-rightSide{
+    width: calc(50vw - 35px);
+    background-color: black;
+}
+@media (min-width:1440px){
+    .proDe-full{
+        background-color:black;
+    }
+    .proDe-leftSide{
+        width: 45vw;
+    }
+    .proDe-move{
+        margin-left: 2%;
+    }
+}
+
+/* ------------slick-------- */
+
+.proBread{
+    font-family: notoSansTC-Medium;
+    color: #707070 !important;
+}
+.proBread1{
+    color: #A7A7A7 !important;
+}
+
+.proDe-wall img{
+    height: 85vh;
+}
+.proDe-wallBottom{
+}
+.carousel-root{
+    height: 100%;
+}
+.thumb {
+    width: 80px;
+    height: 80px;
+    margin-right: 20%;
+    border: 0 solid transparent;
+}
+.thumb img{
+    width: 100%;
+    height: 100%;
+}
+
+.detailTry{
+}
+/* -------right hand side------ */
+.proDe-rightSideBox{
+    background-color: black;
+    width: 90%;
+    margin: 0 auto;
+}
+.proDe-logoTopBox{
+    width: 100%;
+    height: 100px;
+    border-bottom: 2px solid #6e6e6e;
+}
+.proDe-logoBox{
+    width: 210px;
+    height: 70px;
+    align-items:center;
+    margin-top: 3%;
+}
+.proDe-logoBox img{
+    width: 100%;
+}
+.proDe-logoBox p{
+    margin-top: 15px;
+    font-family: notoSansTC-Medium;
+    color: white;
+}
+.proDe-logoBox span{
+    color: #6e6e6e;
+}
+.proDe-chooseBox{
+    background-color: black;
+    width: 100%;
+    height: 380px;
+    margin-top: 35px;
+    border-bottom: 2px solid #6e6e6e;
+}
+@media (min-width: 1440px){
+    .proDe-chooseBox{
+        height: 410px;
+    }
+}
+.proDe-nameAndHeart{
+    width: 100%;
+    height: 50px;
+    justify-content:space-between;
+    background-color:black;
+}
+.proDe-name p{
+    font-family: notoSansTC-Medium;
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+}
+.proDe-heartlogo{
+    margin-top: 5px;
+    margin-right: 10%;
+}
+.proDe-starsComment{
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    margin-top: 1.5%;
+}
+.proDe-scoresAndWrite {
+    margin-top: 27px;
+    margin-left: 20px;  
+    font-family:notoSansTC-Medium;
+    color: #6e6e6e;
+}
+.proDe-writee{
+    margin-left: 20px;
+    border-bottom: 1px solid #6e6e6e;
+    color: #6e6e6e;
+}
+.proDe-productPrice{
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    margin-top: 10px;
+}
+.proDe-productPricee p{
+font-family: notoSansTC-Medium;
+font-size: 1.5rem;
+color: white;
+}
+.proDe-sizeBtnBox{
+    width: 100%;
+    height: 100px;
+    background-color:black;
+    margin-top: 3%;
+}
+.proDe-sizeBtnBox2{
+    width: 60%;
+    height: 50px;
+    background-color:black;
+}
+.proDe-sizeBtnA{
+    width: 200px;
+    justify-content: space-between;
+
+}
+
+
+
+
+
+.proDe-sizeBtn {
+    border: 1px solid #6e6e6e;
+    background-color: transparent;
+    color: #6e6e6e;
+    width: 50px;
+    height: 50px;
+}
+
+
+.sizeSelect{
+    color: white;
+    border: 3px solid white;
+    background-color:black;
+    transition: .2s;
+    
+}
+
+
+.proDe-sizeCheck{
+    color: #6e6e6e;
+    border-bottom: 1px solid #6e6e6e;
+    margin-left: 20px;
+
+
+}
+.proDe-sizeCheck p{
+    margin-top: 27px;
+    color: #6e6e6e;
+}
+
+.proDe-proId{
+    color: #6e6e6e;
+    width: 100%;
+    height: 30px;
+    margin-top: 15px;
+    font-family: notoSansTC-Medium;
+}
+.proDe-countAndAdd{
+    width: 100%;
+    height: 100px;
+    margin-top: 5%;
+    justify-content: space-between;
+}
+.proDe-numberAndBox{
+    width: 47%;
+    height: 50px;
+ align-items: center;
+ justify-content: space-between;
+}
+@media (min-width: 1440px){
+    .proDe-numberAndBox{
+        width: 36%;
+    }
+}
+
+.proDe-numberName p{
+    font-family: notoSansTC-Medium;
+    color: white;
+    font-size:1.3rem;
+}
+
+
+.proDe-CountBtn button{
+    border: 1px solid #6e6e6e;
+    background-color:transparent;
+    color: white;
+    width: 50px;
+    height: 50px;
+}
+.proDe-spaceMid{
+    width: 100px;
+    height: 50px;
+    border-top: 1px solid #6e6e6e;
+    border-bottom: 1px solid #6e6e6e;
+}
+.proDe-spaceMid p{
+    color: white;
+    font-family: notoSansTC-Medium;
+    text-align: center;
+    margin-top: 8px;
+    font-size: 1.3rem;
+    text-align: center;
+}
+.proDe-addToCart{
+    margin-right: 10%;
+}
+.proDe-addToCart button{
+    border: 1px solid white;
+    width: 200px;
+    height: 50px;
+    background-color:transparent;
+}
+.proDe-addToCart button p{
+    color: white;
+    font-family: notoSansTC-Medium;
+    font-size: 1.2rem;
+}
+/* ------------appendPlus----- */
+.proDe-appendPlus{
+    width: 100%;
+    margin-top:28px;
+    border-bottom:2px solid #6e6e6e;
+}
+.proDe-titleName{
+    font-family: notoSansTC-Medium;
+    font-size: 1.7rem;
+}
+.proDe-invisibleWord{
+    font-family: notoSansTC-Medium;
+    color: white;
+}
+.proDe-bottomLines{
+    border-bottom: 2px solid #6e6e6e;
+}
+
+
+/* --------商品評價-------- */
+.proDe-commentsAndBar{
+    justify-content:space-between;
+    border-bottom: 2px solid #6e6e6e;
+}
+.proDe-commentsLeft{
+    width: 40%;
+    height: 100px;
+    margin-top: 40px;
+}
+.proDe-commentsWord1{
+    color: white;
+    font-family: notoSansTC-Medium;
+    font-size: 1.7rem;
+}
+.proDe-commentsNumAndStar{
+    color: white;
+    font-family: notoSansTC-Medium;
+    font-size: 2rem;
+    align-items: center;
+  
+}
+.proDe-pushLeft{
+    margin-left: 30px;
+    margin-top: -7px;
+}
+.proDe-underStarWord{
+    font-size: 1rem;
+    color: #6e6e6e;
+    justify-content: flex-end;
+    margin-right: 15px;
+
+}
+.proDe-commentsRight{
+    width: 52%;
+    height: 100px;
+    margin-top:40px;
+}
+@media (min-width: 1440px){
+    .proDe-commentsRight{
+        margin-left: 30%;
+    }
+}
+
+
+.proDe-commentsBar1 p{
+font-family: notoSansTC-Medium;
+
+}
+.pro-slider{
+}
+.proDe-1{
+    margin-right: 20px;
+    color: white;
+}
+.proDe-2{
+    margin-left: 20px;
+    color: white;
+
+}
+/* -------------commentSarea--------- */
+.proDe-commentsCard{
+    width: 100%;
+    padding-bottom: 28px;
+    border-bottom: 2px solid #8e8e8e;
+    align-items: center;
+    justify-content: space-between;
+}
+.proDe-commentsCardLeft{
+    width: 30%;
+    margin-top: 20px;
+}
+
+.proDe-userName, .proDe-userDate{
+    font-family:notoSansTC-Medium;
+    color: white;
+    margin-top: 10px;
+}
+.proDe-userName{
+    font-size: 1.2rem;
+}
+
+.proDe-commentsCardRight{
+    width: 65%;
+    margin-top: 28px;
+}
+.proDe-commentsContent{
+    margin-top: 10px;
+    
+}
+.proDe-commentsContent p{
+    color: white;
+    font-family: notoSansTC-Medium;
+} 
+/* --------評論------- */
+.proDe-commentsName{
+    border: 1px solid #8e8e8e;
+}
+.proDe-lastWord{
+    font-family: notoSansTC-Medium;
+    font-size: 1.1rem;
+    margin-top: -12px;
+}
+
+.proDe-lastWord2{
+    font-family: notoSansTC-Medium;
+    font-size: 1.1rem;
+    margin-top: -3px;
+}
+
+.flex-wrap5{
+    position: relative;
+}
+
+.pro-quickbtn{
+    width: 80px;
+    height: 40px;
+    font-family: NotoSansTC-md;
+    border:0;
+    position: absolute;
+    bottom: 0%;
+}
+.pro-quickbtn2{
+    width: 80px;
+    height: 40px;
+    font-family: NotoSansTC-md;
+    border:0;
+    position: absolute;
+    bottom: 0%;
+    left: -100px;
+}
+
+.pro-nametext{
+    width: 100px;
+    height: 40px;
+    border:0;
+    position: absolute;
+    bottom: -70px;
+    left: -30px;
+    color: transparent;
+    background-color:transparent;
+}
+.pro-quickname2{
+    width: 80px;
+    height: 60px;
+    border:0;
+    position: absolute;
+    bottom: -70px;
+    left: 70px;
+}
+.proDe-sizepic{
+    width: 100%;
+}
+.proDe-sizepic img{
+    width: 100%;
+}

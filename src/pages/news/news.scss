@@ -1,0 +1,128 @@
+
+
+.news-content-area{
+    background: #000;
+    padding-left:70px ;
+    padding-right:140px ;
+
+
+    .news-logo{
+        width: 20%;
+        margin-top: 20px;
+        margin-bottom: 15px;
+    }
+
+    h3{
+        color: #707070;
+        font-size:1.5rem;
+        line-height: 50px;
+    }
+
+    h5{
+        margin-top: 20px;
+        color: #81FC4D;
+        font-family: Engravers;
+        font-size:1rem;
+    }
+
+    h1{
+        font-family: Engravers;
+        font-size:4rem;
+        color: #81FC4D;
+    }
+    h2{
+        font-family: Engravers;
+        font-size:3rem;
+        color: #1D0AFF;
+    }
+
+    h4{
+        font-family: Engravers;
+        font-size:3rem;
+        color: #e8e8e8;
+    }
+
+    p{
+        color: #e8e8e8;
+        font-size:0.8rem;
+    }
+
+    strong{
+        font-weight: 900;
+        color: #81FC4D;
+        font-size:1rem;
+    }
+
+    span{
+        color: #707070;
+        font-size:0.5rem;
+        margin-left: 15px;
+    }
+
+    img{
+        width: 100%;
+    }
+
+    label{
+        border:2px solid #81FC4D;
+        border-right:0px ;
+        width: 100px;
+
+        p{
+            color: #81FC4D;
+            margin:auto;
+            font-size:1rem;
+            text-align: center;
+        }
+    }
+}
+
+
+.news-marquee{
+    border-top: 4px solid #e8e8e8;
+    border-bottom: 4px solid #e8e8e8;
+
+    h1{
+        letter-spacing: 8px;
+        font-size: 3vw;
+        font-family: NotoSansTC-md;
+        color: #e8e8e8;
+    }
+}
+
+.news-btn{
+    width: 80px;
+    height: 40px;
+    font-family: NotoSansTC-md;
+    background:#1D0AFF ;
+    border:0;
+    color: #e8e8e8;
+
+}
+
+.news-inp{
+    background:none;
+    height: 40px;
+    width: 200px;
+    border:2px solid #81FC4D;
+    color: #e8e8e8;
+}
+
+.news-user-img{
+    overflow: hidden;
+    backage-img:url()
+
+    div{
+        height: 100px;
+        margin-left:auto;
+        background-image: url();
+    }
+
+}
+
+.news-text-com{
+    border:2px solid #81FC4D;
+    background-color:#000;
+    color: #e8e8e8;
+}
+

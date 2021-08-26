@@ -1,0 +1,278 @@
+// Leave Right Side For Navbar
+.reduce-width{
+    width: calc(100% - 70px);
+}
+
+// leave 70px left paddinf
+.left-padding{
+    padding-left: 70px;
+}
+
+.both-padding{
+    padding-left: 70px;
+    padding-right: 70px;
+
+}
+
+// ?Color Variable
+
+$egreen: #81FC4D;
+$eblue: #1D0AFF;
+$egreydk: #A7A7A7;
+$egreylt: #E8E8E8;
+
+// !HERO ZONE
+
+.ed-hero-zone{
+    background-color: black;
+}
+
+.ed-bread{
+    border-top: 2px solid white;
+}
+
+.ed-detail-main{
+    border-top: 1px solid white;
+    border-bottom: 2px solid white ;
+}
+
+.ed-event-name{
+    font-size: 1.9rem;
+    color: white;
+}
+
+.ed-event-pic{
+    object-fit: cover;
+
+}
+.cc{
+    height: 50px;
+    background-color: white;
+}
+.cc2{
+    height: 50px;
+    background-color: blue;
+}
+
+.ed-detail-intro{
+    border-bottom: 1px solid white;
+
+
+    h4{
+        font-size: 1.9rem;
+        color: white;
+
+    }
+    p{
+        font-size: 1.5rem;
+        color: #A7A7A7;
+    }
+    .ed-like-icon{
+        cursor: pointer;
+        font-size: 2.2rem;
+        color: white;
+    }
+
+    .ed-like-icon:hover{
+        color: #81FC4D;
+    }
+
+    .ed-like-icon2{
+        cursor: pointer;
+        font-size: 2.2rem;
+        color: #81FC4D;
+    }
+
+    .ed-like-icon2:hover{
+        color: white;
+    }
+}
+
+.ed-commu-btn button{
+    text-decoration: none;
+    width: 100%;
+    height: 50px;
+    font-size: 1.3rem;
+    text-align: center;
+    color: white;
+    background-color: transparent;
+    border: 2px solid white;
+
+}
+.ed-commu-btn button:hover{
+    text-decoration: none;
+    color: black;
+    background-color: white;
+}
+
+.ed-weather{
+    color: white;
+    div{
+        h6{
+            display: inline;
+            font-size: 1.4rem;
+            font-weight: 500;
+        }
+        p{
+            display: inline;
+        }
+    }
+}
+
+.ed-detail-btn{
+    background-color: transparent;
+    border: 0px;
+    color: white;
+    span{
+        font-size: 1.3rem;
+    }
+    
+}
+.ed-detail-content{
+    padding-right: 70px;
+    p{
+        font-size: 1rem;
+        color: #A7A7A7;
+    }
+    h1{
+        font-weight: 500;
+        font-size: 1.3rem;
+        color: white;
+    }
+    
+}
+
+.ed-rules{
+    border-top: 1px solid white;
+
+}
+
+.e-fb-area{
+    border-top: 1px solid white;
+}
+
+.e-fb-cmt{
+    background-color: #E8E8E8;
+}
+
+.ed-comment{
+    cursor: pointer; 
+    text-align: center;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    font-size: 1rem;
+    font-weight: 500;
+    padding-top: 11px;
+}
+
+.ed-comment:hover{
+    background-color: white;
+    color: black;
+
+}
+
+.ed-leave-msg{
+    background-color: #1D0AFF;
+    border: 0px;
+    color: white;
+    font-size: 1rem;
+    font-weight: 500;
+
+}
+
+.ed-textarea{
+    resize: none;
+    border: none;
+    height: 200px;
+}
+
+.ed-ticket{
+    background-color: #E8E8E8;
+    h2{
+        font-weight: bold;
+        font-size: 1.9rem;
+        letter-spacing: 4px;
+        span{
+            font-size: 2.2rem;
+            color: #1D0AFF;
+            letter-spacing: 0px;
+        }
+    }
+    p{
+        font-size: 1.3rem;
+        border-bottom: 1px solid black;
+    }
+
+    form{
+        button{
+            font-size: 1.3rem;
+            height: 50px;
+            border: 2px solid black;
+            margin: 5px;
+        }
+        .ticket-num{
+        border: 0px;
+        }
+        div{
+            border: 2px solid black;
+            height: 50px;
+        
+            .ticket-count{
+                border: 2px solid black;
+                background-color: black;
+                color: white;
+                width: 33%;
+                height: 100%;
+                margin: 0px;
+                font-size: 2rem;
+                .ed-count-icon{
+                    margin-bottom: 15px;
+                }
+                
+            }
+            .ticket-amount{
+                display: inline-block;
+                line-height: 24px;
+                width: 34%;
+                height: 100%;
+                text-align: center;
+                border: 0px;
+                font-size: 1.5rem;
+                font-weight: 500;
+                padding-bottom: 3px;
+                p{
+                    border: 0px;
+                    padding-bottom: 15px;
+                }
+            }
+            
+            
+        }
+        .ed-total{
+            border: 0px;
+        }
+        .ed-submit-btn{
+            background-color: #1D0AFF ;
+            color: white;
+            border: 0px;
+            margin: 0px;
+        }
+        .ed-submit-btn:hover{
+            background-color: #1f12b3 ;
+        }
+    }
+
+    
+
+}
+
+.e-ticket-type:hover{
+    color: white;
+    background-color: black;
+
+}
+
+
+
+

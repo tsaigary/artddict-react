@@ -1,0 +1,11 @@
+@font-face {
+    font-family: Engravers;
+    src:url(./font/ENGR.ttf);
+}
+
+@font-face {
+    font-family: EngraversBold;
+    src:url(./font/EngraversMTBold.ttf);
+}
+
+//TODO:要確認路徑喔～～～～～～

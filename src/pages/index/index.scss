@@ -1,0 +1,852 @@
+@font-face {
+    font-family: Engravers;
+    src:url(../../style/font/ENGR.ttf);
+    }
+    
+    @font-face {
+    font-family: EngraversBlod;
+    src:url(../../style/font/EngraversMTBold.ttf);
+    }
+    
+    @font-face {
+    font-family: notoSansTC-md;
+    src:url(../../style/font/NotoSansTC-Medium.otf);
+    }
+
+    .notoSansTC-md{
+        font-family: notoSansTC-md;
+    }
+
+    .engravers{
+        font-family: Engravers;
+    }
+
+    /* body {
+        width: 100%;
+    } */
+
+    .index-web-padding{
+        padding-right: 70px;
+    }
+
+    .video-area{
+        position: relative;
+    }
+
+    .index-video {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: calc(100% - 70px);
+    /* height: calc(100% - 130px); */
+    -o-object-fit: cover;
+        object-fit: cover;
+    -o-object-position: center;
+        object-position: center;
+    }
+
+    div.slogan {
+    padding-top: 70px;
+    font-family: Engravers;
+    height: 100vh; 
+    letter-spacing: 2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+    color: #81FC4D;
+    }
+    
+    .slogan h1{
+        font-size:3vw;
+    }
+    .slogan h5{
+        font-size:1.5vw;
+    }
+
+    .start-scroll{
+        color: #81FC4D;
+    }
+    
+    .vertical-line {
+        text-align:center;
+        font-size:3vw;
+    }
+
+    .start-scroll p{
+        font-family: Engravers;
+    }
+
+    .rect{
+        width: 100%;
+        height: 70px;
+        background: #000;
+        
+    }
+    .rect-first{
+        position: absolute;
+        top: 0;
+    }
+    .rect-last{
+        position: absolute;
+        bottom:0;
+    }
+    /*FIXME:*/
+    .index-logo{
+        width: 40%;
+        position: absolute;
+        top:6vh;
+        left:2vh;
+    }
+
+    /* ----------news區域 -----------*/
+    .news-area{
+        width:calc(100% - 55px) ;/*TODO:為何不能用70?*/
+    }
+
+    .news-slogen{
+        height: 100vh;
+        position: relative;
+        background-color: #E8E8E8;
+        z-index: 0;
+    }
+    .news-slogen h1{
+        font-family: Engravers;
+        font-size:3vw;
+    }
+
+    .news-hl{
+        position:absolute;
+        z-index: -1;/*TODO: Zindex not working*/
+        top:43%;
+        left:35%;
+        width: 30%;
+        height: 5%;
+        transform:rotate(1deg);
+        transform-origin: 0 -10;
+        background-color: #81FC4D;
+    }
+
+    .news-slogen-TC{
+        font-size:3vw;
+        font-weight: bolder;
+        color:transparent;
+        -webkit-text-stroke: 1px rgb(0, 0, 0);
+    }
+
+    .news-cards{
+        height: 100%;  /* how to get window hight */
+        overflow: scroll;
+    }
+
+    /*FIXME:*/
+    .news{
+        position: relative;
+        z-index: 0;
+    }
+
+    
+
+    div.news img{
+        width: 100%;
+        height: 100%;
+        
+    }
+
+    .index-img-title{
+        display:none ;
+        width: 70%;
+        text-align: center;
+        color: #81FC4D;
+        font-size: 1vw;
+        font-weight: bold;
+        position: absolute;
+        top:50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+
+        h1{
+            font-size: 2vw;
+        }
+
+        .index-title-ract1{
+            position: absolute;
+            z-index:-1;
+            background-color: #000;
+            height: 30px;
+            width: 70%;
+            top:20%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+        }
+        .index-title-ract2{
+            position: absolute;
+            z-index:-1;
+            background-color: #000;
+            height: 30px;
+            width: 70%;
+            top:55%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+        }
+        .index-title-ract3{
+            position: absolute;
+            z-index:-1;
+            background-color: #000;
+            height: 30px;
+            width: 100%;
+            top:90%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+        }
+        
+        .index-title-ract1-3{
+            position: absolute;
+            z-index:-1;
+            background-color: #000;
+            height: 30px;
+            width: 100%;
+            top:23%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+        }
+        .index-title-ract1-4{
+            position: absolute;
+            z-index:-1;
+            background-color: #000;
+            height: 30px;
+            width: 90%;
+            top:23%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+        }
+        
+        .index-title-ract3-4{
+            position: absolute;
+            z-index:-1;
+            background-color: #000;
+            height: 30px;
+            width: 80%;
+            top:90%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+        }
+        .index-title-ract3-5{
+            position: absolute;
+            z-index:-1;
+            background-color: #000;
+            height: 30px;
+            width: 60%;
+            top:90%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+        }
+        .index-title-ract2-5{
+            position: absolute;
+            z-index:-1;
+            background-color: #000;
+            height: 30px;
+            width: 90%;
+            top:55%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+        }
+        
+    }
+    
+    div.news:hover{
+        
+        img{-webkit-filter:brightness(.8);
+        
+    }
+    div{
+        display:block;
+    }
+
+        
+    }
+
+
+        
+
+
+    /* ----------waterfall區域 -----------*/
+    .artist-area{
+        background-color: #000;
+    }
+
+    .artist-slogan{
+        font-family: Engravers;
+        color: #81FC4D;
+        font-size: 4vw;
+        padding-top: 50px;
+        margin-left: 35px;
+
+    }
+    
+    .artist-slogan strong{
+        line-height: 100px;
+    }
+
+    .artist-title-tc{
+        margin-top: 30px;
+        font-size: 1.5vw;
+    }
+
+    .artist-title-tc span {
+        font-size: 1.5vw;
+        padding-left: 9em;
+        font-family: notoSansTC-md;
+        color: #81FC4D;
+        position: relative;
+    }
+    .artist-title-tc span:before{
+        content: "";
+        position: absolute;
+        top: 50%;
+        background: #81FC4D;
+        width: calc(100% - 7.5em);
+        height: 2px;
+        right: calc(100% - 8.5em); 
+    }
+
+
+    .waterfall{ 
+        display: grid; 
+        grid-template-rows: 1fr 1fr; 
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap:20px; 
+    }
+    
+    
+
+    .item{
+        width: 100%;
+        /* height:280px; */
+        break-inside:avoid;
+        overflow: hidden;
+        border-radius: 10px;
+        margin-bottom: 15px;
+    }
+
+
+    .item{
+        position: relative;
+
+        img{width: 100%;
+            object-fit: cover;}
+        
+        h1{
+            display:none ;
+            font-family:EngraversBold;
+            text-align: center;
+            background-color: #1D0AFF;
+            color: #E8E8E8;
+            line-height:25px;
+            font-size: 1.5vw;
+            font-weight: bold;
+            position: absolute;
+            top:0%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+        }
+    }
+
+
+
+
+    .item:hover{
+        
+        img:hover{
+            -webkit-filter:brightness(.5);
+        }
+        h1{
+            display:block;
+            top:50%;
+            transition: easing;
+        }
+    }
+
+    /* ----------event區域 -----------*/
+    .event-area{
+        position: relative;
+        background-color: #E8E8E8;
+        z-index: 0;
+    }
+    .event-img{
+        width: 100%;
+        height: 50vh;
+        position: relative;
+        z-index: 0;
+
+        .marquee1{
+            position: absolute;
+            top: 20%;
+            z-index: -1;
+
+            img{
+                width: 35%;
+            }
+        } 
+        .marquee2{
+            position: absolute;
+            top: 60%;
+            z-index: 0;
+            img{
+                width: 35%;
+            }
+        } 
+        .marquee3{
+            position: absolute;
+            top: 100%;
+            z-index: -1;
+            img{
+                width: 35%;
+            }
+        } 
+    }
+    .event-img img{
+        margin-right: 50vh;
+    }
+
+
+    .event-slogan{
+        padding-top: 40vh;
+
+        button{
+            background: #000;
+            color: #E8E8E8;
+            border:none;
+        }
+        button:hover{
+            background: #1D0AFF;
+            color: #E8E8E8;
+            border:none;
+        }
+    }
+
+    .event-slogan h1{
+        font-family: Engravers;
+        font-size:6vw;
+        line-height: 100px;
+    
+    }
+
+    .eventicon{
+        width: 100%;
+        height: 100%;
+        // position: relative;
+
+        .event-eye{
+            width: 70%;
+            position: relative;
+        }
+
+        .event-eye2{
+            width: 40%;
+            position: absolute;
+            top:50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+        }
+
+        h1{
+            font-family: Engravers;
+            color: #1D0AFF;
+            text-align: center;
+            font-size: 4vw;
+            line-height: 40px;
+            display:none;
+            width: 40%;
+            position: absolute;
+            top:50%;
+            left: 45%;
+            transform: translate(-50%,-50%);
+
+        }
+
+    }
+
+    .eventicon:hover{
+        
+        .event-eye2{
+            display:none
+        }
+        h1{
+            display: block;
+        }
+    }
+    
+    
+    .event-title-tc{
+        font-size: 1.5vw;
+    }
+
+    .event-title-tc span {
+        font-size: 1.5vw;
+        padding-left: 9em;
+        font-family: notoSansTC-md;
+        color: #000;
+        position: relative;
+    }
+
+    .event-title-tc span:before{
+        content: "";
+        position: absolute;
+        top: 50%;
+        background: #000;
+        width: calc(100% - 4em);
+        height: 2px;
+        right: calc(100% - 8.5em); 
+    }
+
+    .event-marquee{
+        border-top: 4px solid #000;
+        border-bottom: 4px solid #000;
+    }
+
+    .event-marquee h1{
+        letter-spacing: 4px;
+        font-size: 3vw;
+        font-family: notoSansTC-md;
+
+    }
+
+    /* ----------product區域 -----------*/
+    .product-area{
+        background-color: #E8E8E8;
+        padding-top: 100px;
+
+        a{
+            
+            color: #000;
+        }
+    }
+
+    .product-cute{
+        margin:0 auto;
+        width: 1174px;
+        position: relative;
+    }
+
+    .index-cirbl{
+        position: absolute;
+        top:-10%;
+        right:28%;
+    }
+
+    .index-box{
+        padding-left: 50px;
+    }
+
+    .index-tage{
+        position: absolute;
+        top:30%;
+        right:16%;
+    }
+    .index-eye{
+        position: absolute;
+        top:-3%;
+        right:30%;
+    }
+    .index-eye2{
+        position: absolute;
+        top:-3%;
+        right:33.5%;
+    }
+
+    .cute-slogan{
+        position: absolute;
+        z-index: 1000;
+        top:-5%;
+        left:25%;
+        font-family: Engravers;
+        font-size:2.5vw;
+    }
+    .cute-slogan span{
+        font-family: Engravers;
+        font-size:3vw;
+    }
+    .product-hl{
+        position:absolute;
+        top:12%;
+        left:24%;
+        width: 28%;
+        height: 15%;
+        transform:rotate(1deg);
+        transform-origin: 0 -10;
+        background-color: #81FC4D;
+    }
+
+    .product-slogan{
+        position: relative;
+    }
+
+    .product-title-tc{
+        position: absolute;
+        top:20%;
+        left: 30%;
+        font-size: 1.5vw;
+    }
+
+    .product-title-tc span {
+        font-size: 1.5vw;
+        padding-left: 9em;
+        font-family: notoSansTC-md;
+        color: #000;
+        position: relative;
+    }
+
+    .product-title-tc span:before{
+        content: "";
+        position: absolute;
+        top: 50%;
+        background: #000;
+        width: calc(100% - 5em);
+        height: 2px;
+        right: calc(100% - 8.5em); 
+    }
+    
+
+    .product-slogan h1{
+        font-family: Engravers;
+        font-size:5vw;
+    }
+
+
+    .product-marquee{
+        width: 10vh;
+        color: #000;
+    }
+
+
+/* ----------product 卡片區 -----------*/
+    
+
+    .index-card-rect{
+        width: 100%;
+        height: 50px;
+        line-height: 50px;
+        text-align: center;
+        background: #000;
+        color:#81FC4D;
+        -moz-transform:translateY(-0.5em);
+        -webkit-transform:translateY(-0.5em);
+        -o-transform:translateY(-0.5em);
+        -ms-transform:translateY(-0.5em);
+        transform:translateY(-0.5em);
+
+        div{
+            color:#E8E8E8;
+            margin:auto;
+            font-family: notoSansTC-md;
+            letter-spacing:3px;
+        }
+
+        a{
+            color:#E8E8E8;
+        }
+        
+        // button{
+        //     color:#E8E8E8;
+        //     background:#000;
+        //     border:0;
+        //     line-height:0;
+        // }
+        
+        a:hover{
+            color:#81FC4D;
+        }
+
+        
+        
+        .index-heart:hover{
+            color:#81FC4D;
+        }
+    }
+
+
+    // .index-card-rect:hover{
+    //     width: 100%;
+    //     height: 60px;
+    //     background: #000;
+    //     -moz-transform:translateY(-0.75em);
+    //     -webkit-transform:translateY(-0.75em);
+    //     -o-transform:translateY(-0.75em);
+    //     -ms-transform:translateY(-0.75em);
+    //     transform:translateY(-0.75em);
+    // }
+    // div{
+    //     display:block;
+    // }
+
+    .product-card{
+        position: relative;
+        overflow: hidden;
+
+        img{
+            width: 100%;
+        }
+    }
+
+    .product-card-wrap{
+        margin-bottom: 100px;
+    }
+
+    .indexACC{
+        font-family: Engravers;
+        font-size:4vw;
+        text-align: center;
+        border-top: 2px solid #000;
+        border-bottom: 2px solid #000;
+    }
+
+    .product-card-wrap img{
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .index-card-btn{
+        text-align:center;
+        border:1px solid #000;
+        margin:auto;
+    }
+    
+    .index-card-btn:hover{
+        background-color: #000;
+        color:#E8E8E8;
+    }
+
+    /* .product-rect{
+        width: calc(100% - 30px);
+        height: 3vh;
+        position:absolute;
+        left: 0;
+        bottom: 0;
+        background: #000;
+    } */
+
+/* ----------競標區 -----------*/
+
+    .auction-area{
+        position: relative;
+    }
+
+    .aucline{
+        border-top: 3px solid #000
+    }
+    .aucline1{
+        border-left: 3px solid #000
+    }
+    .aucline2{
+        border-right: 3px solid #000
+    }
+
+    .auctime{
+        width: 15%;
+        position:absolute;
+        top:5%;
+        left:35%;
+    }
+
+    .auction-slogan{
+        font-family: Engravers;
+        font-size:5vw;
+    }
+
+    .auction-area button{
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-weight: 900;
+        background: #000;
+        color:#81FC4D;
+        border: 1px solid #E8E8E8;
+        font-size: 1rem;
+    }
+
+    .auction-title-tc{
+        font-size: 1.5rem;
+    }
+
+    .auction-title-tc span {
+        font-size: 1.5rem;
+        padding-left: 9em;
+        font-family: notoSansTC-md;
+        color: #000;
+        position: relative;
+    }
+
+    .auction-title-tc span:before{
+        content: "";
+        position: absolute;
+        top: 50%;
+        background: #000;
+        width: calc(100% - 5em);
+        height: 2px;
+        right: calc(100% - 8.5em); 
+    }
+
+    .auction-card-wrap{
+        margin-top: 50px;
+    }
+
+    .auction-card{
+        overflow: hidden;
+    }
+
+    .auction-card img{
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .auc-time{
+        text-align: center;
+        color:#81FC4D;
+        margin:0 auto;
+    }
+    
+    /* ----------Ending -----------*/
+
+    .index-ending{
+        padding-top: 200px;
+        background-color: #E8E8E8;
+    }
+
+    .index-ending div{
+        position: relative;
+        margin: auto;
+    }
+
+    .index-ending h1{
+        font-family: Engravers;
+        line-height:60px;
+        text-align: center;
+        color:#fff;
+        font-size: 3vw;
+        position:absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);  
+    }   
+    
+    .index-ending span{
+        text-decoration:underline 2px;
+    }
+
+
+    
+
+    
+
+        
+
+
+    @media screen and (max-width:576px) {
+        .index-web-padding{
+        padding-right: 0px;
+        }
+        
+    
+    }
